@@ -1,26 +1,26 @@
 [
     {
         "id": 1,
-        "name": "Alex Kim",
+        "name": "Brentan Rath",
         "title": "Event Director",
         "image": "images/member1.jpg"
     },
     {
-        "id": 1,
-        "name": "Priya Patel",
-        "title": "Logistics Lead",
-        "image": "images/member2.jpg"
+        "id": 2,
+        "name": "Anabelle C. Morgan",
+        "title": "Commonwealth Academy Principal",
+        "image": "/assets/anabelle_morgan.png"
     },
     {
-        "id": 2,
-        "name": "Jordan Lee",   
+        "id": 3,
+        "name": "Josue Pedraza",   
         "title": "Marketing Coordinator",
-        "image": "images/member3.jpg"
+        "image": "./assets/josue_pedraza.png"
     },
     {
         "id": 4,
-        "name": "Samira Chen",
-        "title": "Technical Advisor",
-        "image": "images/member4.jpg"
+        "name": "Marcus Moreno",
+        "title": "Commonwealth Academy POC",
+        "image": "./assets/marcus_moreno.png"
     }
 ]
