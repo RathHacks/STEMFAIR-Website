@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Alex Kim",
+        "title": "Event Director",
+        "image": "images/member1.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Priya Patel",
+        "title": "Logistics Lead",
+        "image": "images/member2.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Jordan Lee",   
+        "title": "Marketing Coordinator",
+        "image": "images/member3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Samira Chen",
+        "title": "Technical Advisor",
+        "image": "images/member4.jpg"
+    }
+]
