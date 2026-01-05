@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Brentan Rath",
         "title": "Event Director",
-        "image": "images/member1.jpg"
+        "image": "./assets/brentan_rath.png"
     },
     {
         "id": 2,
@@ -19,8 +19,8 @@
     },
     {
         "id": 4,
-        "name": "Marcus Moreno",
-        "title": "Commonwealth Academy POC",
-        "image": "./assets/marcus_moreno.png"
+        "name": "Tristan Olsson",
+        "title": "Cybersecurity Specialist",
+        "image": "./assets/tristan_olsson.gif"
     }
 ]

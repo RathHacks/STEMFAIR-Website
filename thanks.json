@@ -2,17 +2,23 @@
     {
         "id": 1,
         "name": "Anabelle C. Morgan",
-        "title": "Commonwealth Academy Principal",
+        "title": "Commonwealth Academy, Head of School",
         "image": "/assets/anabelle_morgan.png"
     },
     {
         "id": 2,
+        "name": "Marcus Moreno",
+        "title": "Commonwealth Academy, Head of Technology",
+        "image": "./assets/marcus_moreno.png"
+    },
+    {
+        "id": 3,
         "name": "Sample Contributor",
         "title": "Community Supporter",
         "image": "images/thanks1.jpg"
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "Another Supporter",
         "title": "Volunteer",
         "image": "images/thanks2.jpg"
