@@ -170,27 +170,286 @@ section {
     border-radius: 10px;
 }
 
-/* Sponsors */
-.sponsors { background: white; }
-.benefactor-name {
-    font-size: 1.5rem;
+/* Sponsors Section */
+.sponsors-section {
+    background: linear-gradient(135deg, #f0f4f8 0%, #e8eef3 100%);
+    padding: 80px 10%;
+}
+
+.sponsors-section h2 {
+    font-size: 2.5rem;
+    color: #1a2a6c;
+    margin-bottom: 15px;
+}
+
+.sponsors-intro {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 50px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Benefactor Showcase */
+.benefactor-showcase {
+    max-width: 700px;
+    margin: 0 auto 60px;
+}
+
+.benefactor-card {
+    background: linear-gradient(135deg, #1a2a6c 0%, #2a3a7c 100%);
+    border-radius: 20px;
+    padding: 50px 40px;
+    box-shadow: 0 10px 30px rgba(26, 42, 108, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+.benefactor-card::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(0, 212, 255, 0.15) 0%, transparent 70%);
+    animation: pulse 4s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); opacity: 0.5; }
+    50% { transform: scale(1.1); opacity: 0.8; }
+}
+
+.benefactor-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(0, 212, 255, 0.2);
+    border: 2px solid #00d4ff;
+    padding: 8px 20px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.badge-icon {
+    font-size: 1.2rem;
+    animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.badge-text {
+    color: #00d4ff;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.benefactor-content {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.benefactor-logo-wrapper {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto 25px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 20px rgba(0, 212, 255, 0.4);
+    border: 4px solid #00d4ff;
+}
+
+.benefactor-logo {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+}
+
+.logo-fallback {
+    font-size: 3rem;
     font-weight: bold;
     color: #1a2a6c;
-    margin: 10px 0 30px;
-    text-decoration: none;
+}
+
+.benefactor-name {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.benefactor-description {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+.benefactor-link {
     display: inline-block;
-    transition: color 0.3s;
+    padding: 12px 30px;
+    background: #00d4ff;
+    color: #1a2a6c;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s;
+    box-shadow: 0 4px 15px rgba(0, 212, 255, 0.3);
 }
 
-.benefactor-name:hover {
-    color: #00d4ff;
+.benefactor-link:hover {
+    background: white;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 212, 255, 0.5);
 }
 
-.sponsor-grid {
+/* Sponsor Divider */
+.sponsor-divider {
+    text-align: center;
+    margin: 60px 0 50px;
+    position: relative;
+}
+
+.sponsor-divider::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, transparent, #00d4ff, transparent);
+}
+
+.divider-text {
+    background: linear-gradient(135deg, #f0f4f8 0%, #e8eef3 100%);
+    padding: 0 30px;
+    color: #1a2a6c;
+    font-weight: 600;
+    font-size: 1.2rem;
+    position: relative;
+    z-index: 1;
+}
+
+/* Sponsor Cards Grid */
+.sponsor-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 35px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sponsor-card {
+    background: white;
+    border-radius: 15px;
+    padding: 35px 25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s;
+    text-align: center;
+    position: relative;
+    border-top: 4px solid transparent;
+}
+
+.sponsor-card.sponsor-gold {
+    border-top-color: #FFD700;
+}
+
+.sponsor-card.sponsor-silver {
+    border-top-color: #C0C0C0;
+}
+
+.sponsor-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.sponsor-tier-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.sponsor-tier-badge.gold {
+    background: linear-gradient(135deg, #FFD700, #FFA500);
+    color: #1a2a6c;
+}
+
+.sponsor-tier-badge.silver {
+    background: linear-gradient(135deg, #C0C0C0, #A8A8A8);
+    color: #1a2a6c;
+}
+
+.sponsor-logo-wrapper {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto 20px;
+    background: #f9fafb;
+    border-radius: 15px;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #e8eef3;
+    transition: all 0.3s;
+}
+
+.sponsor-card:hover .sponsor-logo-wrapper {
+    border-color: #00d4ff;
+    box-shadow: 0 4px 15px rgba(0, 212, 255, 0.2);
+}
+
+.sponsor-logo {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+}
+
+.sponsor-name {
+    font-size: 1.3rem;
+    color: #1a2a6c;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.sponsor-description {
+    font-size: 0.95rem;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    min-height: 45px;
+}
+
+.sponsor-link {
+    display: inline-block;
+    color: #00d4ff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: all 0.3s;
+    border-bottom: 2px solid transparent;
+}
+
+.sponsor-link:hover {
+    color: #1a2a6c;
+    border-bottom-color: #1a2a6c;
 }
 
 /* Team Section */

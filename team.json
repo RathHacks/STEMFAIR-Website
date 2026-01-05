@@ -6,10 +6,16 @@
         "image": "images/member1.jpg"
     },
     {
-        "id": 3,
+        "id": 2,
         "name": "Josue Pedraza",   
-        "title": "Engineering Coordinator",
+        "title": "Robotics Rockstar",
         "image": "./assets/josue_pedraza.png"
+    },
+    {
+        "id": 3,
+        "name": "Miguel Campo",
+        "title": "Website Wizzard",
+        "image": "./assets/miguel_campo.png"
     },
     {
         "id": 4,

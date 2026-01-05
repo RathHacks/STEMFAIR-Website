@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Commonwealth Academy",
+        "tier": "benefactor",
+        "description": "Our primary benefactor and host venue",
+        "website": "https://www.commonwealthacademy.org/",
+        "logo": "images/commonwealth.png"
+    },
+    {
+        "id": 2,
+        "name": "RathHacks",
+        "tier": "gold",
+        "description": "Technology education and community outreach",
+        "website": "#",
+        "logo": "images/rathhacks.png"
+    },
+    {
+        "id": 3,
+        "name": "NOSINT",
+        "tier": "gold",
+        "description": "Supporting STEM innovation",
+        "website": "#",
+        "logo": "images/nosint.png"
+    },
+    {
+        "id": 4,
+        "name": "Boy Scouts of America",
+        "tier": "silver",
+        "description": "Youth development and community service",
+        "website": "#",
+        "logo": "images/bsa.png"
+    },
+    {
+        "id": 5,
+        "name": "EduBuild",
+        "tier": "silver",
+        "description": "Educational resources and materials",
+        "website": "#",
+        "logo": "images/edubuild.png"
+    }
+]

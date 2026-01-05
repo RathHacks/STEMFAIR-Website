@@ -7,7 +7,6 @@ async function loadTeamMembers() {
         
         teamGrid.innerHTML = '';
         
-        // Separate first member (leader) from the rest
         if (teamMembers.length > 0) {
             const leader = teamMembers[0];
             const leaderCard = document.createElement('div');
@@ -26,7 +25,6 @@ async function loadTeamMembers() {
             teamGrid.appendChild(leaderCard);
         }
         
-        // Add remaining team members
         const remainingMembers = teamMembers.slice(1);
         remainingMembers.forEach(member => {
             const memberCard = document.createElement('div');
