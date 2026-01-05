@@ -7,7 +7,28 @@ async function loadTeamMembers() {
         
         teamGrid.innerHTML = '';
         
-        teamMembers.forEach(member => {
+        // Separate first member (leader) from the rest
+        if (teamMembers.length > 0) {
+            const leader = teamMembers[0];
+            const leaderCard = document.createElement('div');
+            leaderCard.className = 'team-leader';
+            
+            leaderCard.innerHTML = `
+                <div class="portrait-wrapper">
+                    <img src="${leader.image}" alt="Portrait of ${leader.name}" class="team-portrait">
+                </div>
+                <div class="member-info">
+                    <h3 class="member-name">${leader.name}</h3>
+                    <p class="member-title">${leader.title}</p>
+                </div>
+            `;
+            
+            teamGrid.appendChild(leaderCard);
+        }
+        
+        // Add remaining team members
+        const remainingMembers = teamMembers.slice(1);
+        remainingMembers.forEach(member => {
             const memberCard = document.createElement('div');
             memberCard.className = 'team-member';
             

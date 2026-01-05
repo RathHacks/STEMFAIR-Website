@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Anabelle C. Morgan",
+        "title": "Commonwealth Academy Principal",
+        "image": "/assets/anabelle_morgan.png"
+    },
+    {
+        "id": 2,
+        "name": "Sample Contributor",
+        "title": "Community Supporter",
+        "image": "images/thanks1.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Another Supporter",
+        "title": "Volunteer",
+        "image": "images/thanks2.jpg"
+    }
+]

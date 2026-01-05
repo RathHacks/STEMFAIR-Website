@@ -6,15 +6,9 @@
         "image": "images/member1.jpg"
     },
     {
-        "id": 2,
-        "name": "Anabelle C. Morgan",
-        "title": "Commonwealth Academy Principal",
-        "image": "/assets/anabelle_morgan.png"
-    },
-    {
         "id": 3,
         "name": "Josue Pedraza",   
-        "title": "Marketing Coordinator",
+        "title": "Engineering Coordinator",
         "image": "./assets/josue_pedraza.png"
     },
     {
