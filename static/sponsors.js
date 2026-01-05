@@ -1,6 +1,6 @@
 async function loadSponsors() {
     try {
-        const response = await fetch('sponsors.json');
+        const response = await fetch('assets/sponsors.json');
         const sponsors = await response.json();
         
         const sponsorsContainer = document.querySelector('.sponsors-container');

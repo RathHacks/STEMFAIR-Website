@@ -1,6 +1,6 @@
 async function loadTeamMembers() {
     try {
-        const response = await fetch('team.json');
+        const response = await fetch('assets/team.json');
         const teamMembers = await response.json();
         
         const teamGrid = document.querySelector('.team-grid');

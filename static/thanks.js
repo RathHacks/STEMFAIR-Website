@@ -1,6 +1,6 @@
 async function loadSpecialThanks() {
     try {
-        const response = await fetch('thanks.json');
+        const response = await fetch('assets/thanks.json');
         const thanksMembers = await response.json();
         
         const thanksGrid = document.querySelector('.thanks-grid');
