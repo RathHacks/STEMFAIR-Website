@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name": "Kyle Dunkin",
+        "title": "Workshop Facilitator",
+        "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=SarahChen"
+    },
+    {
+        "id": 2,
+        "name": "Marcus Johnson",
+        "title": "STEM Activity Coordinator",
+        "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=MarcusJohnson"
+    },
+    {
+        "id": 3,
+        "name": "Emily Rodriguez",
+        "title": "Volunteer Coordinator",
+        "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=EmilyRodriguez"
+    },
+    {
+        "id": 4,
+        "name": "David Kim",
+        "title": "Safety Supervisor",
+        "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=DavidKim"
+    },
+    {
+        "id": 5,
+        "name": "Jessica Martinez",
+        "title": "Event Coordinator",
+        "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=JessicaMartinez"
+    },
+    {
+        "id": 6,
+        "name": "Ryan Thompson",
+        "title": "Technical Support",
+        "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=RyanThompson"
+    },
+    {
+        "id": 7,
+        "name": "Amanda Wilson",
+        "title": "Registration Manager",
+        "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=AmandaWilson"
+    },
+    {
+        "id": 8,
+        "name": "Kevin Park",
+        "title": "Workshop Assistant",
+        "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=KevinPark"
+    }
+]
+

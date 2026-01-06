@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth; /* This makes the jumping look smooth */
+    scroll-behavior: smooth;
 }
 
 body {
@@ -634,12 +634,26 @@ section {
     margin-right: auto;
 }
 
+.team-subsection-title {
+    font-size: 1.8rem;
+    color: #1a2a6c;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.team-subsection-title:first-of-type {
+    margin-top: 0;
+}
+
 .team-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 40px;
     max-width: 1200px;
     margin: 0 auto;
+    margin-bottom: 40px;
 }
 
 /* Team Leader - Centered and Prominent */
