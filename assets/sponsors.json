@@ -30,13 +30,5 @@
         "description": "Youth development and community service",
         "website": "#",
         "logo": "images/bsa.png"
-    },
-    {
-        "id": 5,
-        "name": "EduBuild",
-        "tier": "silver",
-        "description": "Educational resources and materials",
-        "website": "#",
-        "logo": "images/edubuild.png"
     }
 ]
