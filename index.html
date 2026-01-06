@@ -40,6 +40,7 @@
     <link rel="canonical" href="https://stem.rathhacks.tech/">
     
     <link rel="stylesheet" href="/static/style.css">
+    <script src="static/navbar.js" defer></script>
     <script src="static/team.js" defer></script>
     <script src="static/thanks.js" defer></script>
     <script src="static/sponsors.js" defer></script>
@@ -49,15 +50,20 @@
     <header>
         <nav>
             <div class="logo">STEM<span>Fair</span></div>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#info">Info</a></li>
-                <li><a href="#details">Details</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#sponsors">Sponsors</a></li>
-                <li><a href="#team">Team</a></li>
-                <li><a href="#resources">Resources</a></li>
-                <li><a href="#signup" class="btn-signup">Register</a></li>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#info" class="nav-link">Info</a></li>
+                <li><a href="#details" class="nav-link">Details</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#sponsors" class="nav-link">Sponsors</a></li>
+                <li><a href="#team" class="nav-link">Team</a></li>
+                <li><a href="#resources" class="nav-link">Resources</a></li>
+                <li><a href="https://rathhacks.fillout.com/eaglescoutproject" class="btn-signup nav-link">Register</a></li>
             </ul>
         </nav>
     </header>

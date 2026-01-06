@@ -33,31 +33,130 @@ nav {
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
+    z-index: 1001;
 }
 
 .logo span { color: #00d4ff; }
 
-nav ul {
+.nav-menu {
     display: flex;
     list-style: none;
 }
 
-nav ul li { margin-left: 20px; }
+.nav-menu li { margin-left: 20px; }
 
-nav ul li a {
+.nav-menu li a {
     color: white;
     text-decoration: none;
     font-weight: 500;
     transition: 0.3s;
 }
 
-nav ul li a:hover { color: #00d4ff; }
+.nav-menu li a:hover { color: #00d4ff; }
 
 .btn-signup {
     background: #eeff00;
     padding: 8px 15px;
     border-radius: 5px;
     color: #1a2a6c !important;
+}
+
+/* Mobile Menu Toggle Button */
+.mobile-menu-toggle {
+    display: none;
+    flex-direction: column;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 1001;
+}
+
+.mobile-menu-toggle span {
+    width: 25px;
+    height: 3px;
+    background: white;
+    margin: 3px 0;
+    transition: 0.3s;
+    border-radius: 3px;
+}
+
+/* Mobile Menu Animation */
+.mobile-menu-toggle.active span:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.mobile-menu-toggle.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.mobile-menu-toggle.active span:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+    .mobile-menu-toggle {
+        display: flex;
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 69px;
+        flex-direction: column;
+        background-color: #1a2a6c;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+        padding: 20px 0;
+        max-height: calc(100vh - 70px);
+        overflow-y: auto;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-menu li {
+        margin: 15px 15vw;
+    }
+
+    .nav-menu li a {
+        font-size: 1.1rem;
+        display: block;
+        padding: 10px;
+    }
+
+    .btn-signup {
+        display: inline-block;
+        margin: 10px auto;
+    }
+    
+    header {
+        padding: 1rem 3%;
+    }
+}
+
+/* Tablet Responsive Styles */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    nav ul li {
+        margin-left: 15px;
+    }
+    
+    nav ul li a {
+        font-size: 0.9rem;
+    }
+    
+    .btn-signup {
+        padding: 6px 12px;
+        font-size: 0.9rem;
+    }
+    
+    header {
+        padding: 1rem 3%;
+    }
 }
 
 /* Sections */
@@ -106,7 +205,7 @@ section {
     padding: 10px 35px;
     font-size: 1.3rem;
     font-weight: 600;
-    background: #48b7cd;
+    background: #25abc5;
     color: #000000;
     text-decoration: none;
     border-radius: 8px;
@@ -681,6 +780,8 @@ section {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 
 footer {
