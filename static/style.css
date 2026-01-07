@@ -771,6 +771,13 @@ section {
     margin-top: 0;
 }
 
+/* Event Staff title - smaller to match the section */
+.team-subsection-title:nth-of-type(2) {
+    font-size: 1.4rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
 .team-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -778,6 +785,69 @@ section {
     max-width: 1200px;
     margin: 0 auto;
     margin-bottom: 40px;
+}
+
+/* Planning Committee - More Prominent */
+.organizers-grid {
+    gap: 45px;
+    margin-bottom: 50px;
+}
+
+.organizers-grid .team-member {
+    padding: 35px 25px;
+    border: 3px solid #00d4ff;
+    box-shadow: 0 6px 15px rgba(0, 212, 255, 0.2);
+}
+
+.organizers-grid .portrait-wrapper {
+    width: 160px;
+    height: 160px;
+    border: 5px solid #00d4ff;
+    box-shadow: 0 6px 15px rgba(0, 212, 255, 0.4);
+}
+
+.organizers-grid .member-name {
+    font-size: 1.15rem;
+    font-weight: 700;
+}
+
+.organizers-grid .member-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+/* Event Staff - Smaller and Less Prominent */
+.staff-grid {
+    gap: 25px;
+    margin-bottom: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.staff-grid .team-member {
+    padding: 20px 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+.staff-grid .portrait-wrapper {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 12px;
+    border: 3px solid #00d4ff;
+    box-shadow: 0 2px 8px rgba(0, 212, 255, 0.25);
+}
+
+.staff-grid .member-name {
+    font-size: 0.95rem;
+    margin-bottom: 5px;
+}
+
+.staff-grid .member-title {
+    font-size: 0.8rem;
+}
+
+.staff-grid .team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
 }
 
 /* Team Leader - Centered and Prominent */
