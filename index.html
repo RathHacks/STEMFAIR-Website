@@ -44,6 +44,62 @@
     <script src="static/team.js" defer></script>
     <script src="static/thanks.js" defer></script>
     <script src="static/sponsors.js" defer></script>
+
+    <!-- --------- Structured data (Schema.org JSON-LD) --------- -->
+    <!-- Structured Data for Event -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "STEM Fair 2026 - Commonwealth Academy",
+      "description": "Free hands-on workshops in Science, Technology, Engineering, and Mathematics for all ages.",
+      "startDate": "2026-01-31T09:00:00-05:00",
+      "endDate": "2026-01-31T18:00:00-05:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Commonwealth Academy",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "1321 Leslie Ave",
+          "addressLocality": "Alexandria",
+          "addressRegion": "VA",
+          "postalCode": "22301",
+          "addressCountry": "US"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "RathHacks",
+        "url": "https://stem.rathhacks.tech"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://rathhacks.fillout.com/eaglescoutproject"
+      }
+    }
+    </script>
+    <!-- Organization Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "RathHacks",
+      "url": "https://stem.rathhacks.tech",
+      "logo": "https://stem.rathhacks.tech/assets/bsa.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "contact@rathhacks.tech",
+        "contactType": "Customer Service"
+      },
+      "sameAs": []
+    }
+    </script>
+    <!-- --------- End of Structured data (Schema.org JSON-LD) --------- -->
 </head>
 <body>
 
