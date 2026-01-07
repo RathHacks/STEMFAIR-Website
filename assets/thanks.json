@@ -10,11 +10,5 @@
         "name": "Marcus Moreno",
         "title": "Commonwealth Academy, Head of Technology",
         "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=MarcusM"
-    },
-    {
-        "id": 3,
-        "name": "Mark",
-        "title": "Raffle Donator",
-        "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=Mark"
     }
 ]

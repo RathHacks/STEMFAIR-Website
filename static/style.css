@@ -938,33 +938,20 @@ section {
     font-weight: 500;
 }
 
-/* Special Thanks Section */
-.thanks-section {
-    background: white;
-    padding: 80px 10%;
-}
-
-.thanks-section h2 {
-    font-size: 2.5rem;
-    color: #1a2a6c;
-    margin-bottom: 15px;
-}
-
-.thanks-intro {
-    font-size: 1.1rem;
+/* Special Thanks - Now part of Team Section */
+.team-subsection-intro {
+    font-size: 1rem;
     color: #666;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+    font-style: italic;
 }
 
 .thanks-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 60px;
-    max-width: 1200px;
-    margin: 0 auto;
+    gap: 40px;
+    margin-bottom: 40px;
 }
 
 /* Resources */
