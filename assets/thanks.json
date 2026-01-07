@@ -13,14 +13,8 @@
     },
     {
         "id": 3,
-        "name": "Sample Contributor",
-        "title": "Community Supporter",
-        "image": "images/thanks1.jpg"
-    },
-    {
-        "id": 4,
-        "name": "Another Supporter",
-        "title": "Volunteer",
-        "image": "images/thanks2.jpg"
+        "name": "Mark",
+        "title": "Raffle Donator",
+        "image": "./assets/mark_donator.png"
     }
 ]

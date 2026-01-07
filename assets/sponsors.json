@@ -9,26 +9,26 @@
     },
     {
         "id": 2,
-        "name": "RathHacks",
+        "name": "Boy Scouts of America",
         "tier": "gold",
-        "description": "Technology education and community outreach",
-        "website": "#",
-        "logo": "images/rathhacks.png"
+        "description": "Youth development and community service",
+        "website": "https://www.scouting.org/",
+        "logo": "assets/bsa.png"
     },
     {
         "id": 3,
-        "name": "NOSINT",
+        "name": "RathHacks",
         "tier": "gold",
-        "description": "Supporting STEM innovation",
-        "website": "#",
-        "logo": "images/nosint.png"
+        "description": "Brining technology optotunties to everyone, while building the next generation of innovators.",
+        "website": "https://stem.rathhacks.tech",
+        "logo": "assets/rathhacks.png"
     },
     {
         "id": 4,
-        "name": "Boy Scouts of America",
+        "name": "NOSINT",
         "tier": "silver",
-        "description": "Youth development and community service",
-        "website": "#",
-        "logo": "images/bsa.png"
+        "description": "Helping support online investigation and keeping familes safe.",
+        "website": "https://nosint.org/",
+        "logo": "assets/nosint.png"
     }
 ]

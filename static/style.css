@@ -236,6 +236,130 @@ section {
     }
 }
 
+/* Raffle Section */
+.raffle-section {
+    background: linear-gradient(135deg, #eeff00 0%, #ffd700 100%);
+    padding: 20px 35%;
+    text-align: center;
+}
+
+.raffle-container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.raffle-content {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.raffle-announcement {
+    flex: 1;
+    text-align: left;
+}
+
+.raffle-title {
+    font-size: 1.3rem;
+    color: #1a2a6c;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.raffle-subtitle {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 0;
+    font-style: italic;
+}
+
+.raffle-prizes {
+    flex: 1;
+    text-align: left;
+    margin-top: 0;
+}
+
+.raffle-prizes h3 {
+    font-size: 1rem;
+    color: #1a2a6c;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.prize-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    max-width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-auto-flow: column;
+    gap: 4px;
+    align-content: start;
+}
+
+.prize-list li {
+    font-size: 0.95rem;
+    color: #333;
+    padding: 6px 10px;
+    margin: 4px 0;
+    background: #f7f7f7;
+    border-radius: 5px;
+    border-left: 3px solid #00d4ff;
+}
+
+@media screen and (max-width: 768px) {
+    .raffle-section {
+        padding: 15px 10%;
+    }
+    
+    .raffle-container {
+        padding: 12px 15px;
+        max-width: 300px;
+    }
+    
+    .raffle-content {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .raffle-announcement {
+        text-align: center;
+    }
+    
+    .raffle-prizes {
+        text-align: center;
+    }
+    
+    .raffle-title {
+        font-size: 1.1rem;
+    }
+    
+    .raffle-subtitle {
+        font-size: 0.8rem;
+    }
+    
+    .raffle-prizes h3 {
+        font-size: 0.9rem;
+    }
+    
+    .prize-list {
+        text-align: left;
+        max-width: 200px;
+        margin: 0 auto;
+    }
+    
+    .prize-list li {
+        font-size: 0.85rem;
+        padding: 5px 8px;
+    }
+}
+
 /* Info Section */
 .info-section {
     background: white;
@@ -275,14 +399,14 @@ section {
 }
 
 .info-card h3 {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     color: #1a2a6c;
     margin-bottom: 15px;
 }
 
 .info-card p {
     color: #666;
-    font-size: 1rem;
+    font-size: 0.85rem;
     line-height: 1.8;
     margin: 5px 0;
 }
@@ -446,14 +570,14 @@ section {
 }
 
 .benefactor-name {
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: white;
     margin-bottom: 15px;
     font-weight: 700;
 }
 
 .benefactor-description {
-    font-size: 1.1rem;
+    font-size: 0.95rem;
     color: rgba(255, 255, 255, 0.9);
     margin-bottom: 25px;
     line-height: 1.6;
@@ -584,14 +708,14 @@ section {
 }
 
 .sponsor-name {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color: #1a2a6c;
     margin-bottom: 12px;
     font-weight: 600;
 }
 
 .sponsor-description {
-    font-size: 0.95rem;
+    font-size: 0.85rem;
     color: #666;
     margin-bottom: 20px;
     line-height: 1.5;
@@ -680,14 +804,14 @@ section {
 }
 
 .team-leader .member-name {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #1a2a6c;
     margin-bottom: 10px;
     font-weight: 700;
 }
 
 .team-leader .member-title {
-    font-size: 1.1rem;
+    font-size: 0.95rem;
     color: #00d4ff;
     font-weight: 600;
 }
@@ -732,14 +856,14 @@ section {
 }
 
 .member-name {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color: #1a2a6c;
     margin-bottom: 8px;
     font-weight: 600;
 }
 
 .member-title {
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #00d4ff;
     font-weight: 500;
 }
