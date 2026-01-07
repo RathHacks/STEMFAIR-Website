@@ -1,1 +1,1 @@
-Sample
+RathHacks STEM Fair Website Source Code! This README.md will be updated later on.
