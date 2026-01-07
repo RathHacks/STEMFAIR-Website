@@ -2,7 +2,7 @@
     {
         "id": 0,
         "name": "Kai Schlegel",
-        "title": "Staff Lead",
+        "title": "Staff Manager",
         "image": "./assets/kai_schlegel.png"
     },
     {
@@ -14,31 +14,31 @@
     {
         "id": 2,
         "name": "Andrei Tomiak",
-        "title": "STEM Activity Coordinator",
+        "title": "Workshop Facilitator",
         "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=MarcusJohnson"
     },
     {
         "id": 3,
         "name": "Susan Tomiak",
-        "title": "Volunteer Coordinator",
+        "title": "Workshop Facilitator",
         "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=EmilyRodriguez"
     },
     {
         "id": 4,
         "name": "Teddy Chong",
-        "title": "Safety Supervisor",
+        "title": "Workshop Facilitator",
         "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=DavidKim"
     },
     {
         "id": 5,
         "name": "Maryann Chong",
-        "title": "Event Coordinator",
+        "title": "Workshop Facilitator",
         "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=JessicaMartinez"
     },
     {
         "id": 6,
         "name": "Dennis Chong",
-        "title": "Technical Support",
+        "title": "Workshop Facilitator",
         "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=RyanThompson"
     }
 ]
