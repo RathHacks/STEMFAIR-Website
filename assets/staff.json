@@ -8,13 +8,13 @@
     {
         "id": 1,
         "name": "Kyle Dunkin",
-        "title": "Workshop Facilitator",
+        "title": "Workshop Assistant",
         "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=SarahChen"
     },
     {
         "id": 2,
         "name": "Andrei Tomiak",
-        "title": "Workshop Facilitator",
+        "title": "Workshop Assistant",
         "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=MarcusJohnson"
     },
     {
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "name": "Teddy Chong",
-        "title": "Workshop Facilitator",
+        "title": "Workshop Assistant",
         "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=DavidKim"
     },
     {
@@ -39,6 +39,12 @@
         "id": 6,
         "name": "Dennis Chong",
         "title": "Workshop Facilitator",
+        "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=RyanThompson"
+    },
+    {
+        "id": 7,
+        "name": "Tristan Tomiak",
+        "title": "Workshop Assistant",
         "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=RyanThompson"
     }
 ]
