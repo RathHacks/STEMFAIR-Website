@@ -5,7 +5,7 @@
         "tier": "benefactor",
         "description": "Our primary benefactor and host venue. Bringing Lifechanging Learning to all.",
         "website": "https://www.commonwealthacademy.org/",
-        "logo": "assets/commonwealth-academy.png"
+        "logo": "assets/images/commonwealth-academy.png"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "tier": "gold",
         "description": "Youth development and community service",
         "website": "https://www.scouting.org/",
-        "logo": "assets/bsa.png"
+        "logo": "assets/images/bsa.png"
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "tier": "gold",
         "description": "Brining technology optotunties to everyone, while building the next generation of innovators.",
         "website": "https://stem.rathhacks.tech",
-        "logo": "assets/rathhacks.png"
+        "logo": "assets/images/rathhacks.png"
     },
     {
         "id": 4,
@@ -29,6 +29,6 @@
         "tier": "silver",
         "description": "Helping support online investigation and keeping familes safe.",
         "website": "https://nosint.org/",
-        "logo": "assets/nosint.png"
+        "logo": "assets/images/nosint.png"
     }
 ]

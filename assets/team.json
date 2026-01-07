@@ -3,24 +3,24 @@
         "id": 1,
         "name": "Brentan Rath",
         "title": "Event Director",
-        "image": "./assets/brentan_rath.png"
+        "image": "./assets/images/brentan_rath.png"
     },
     {
         "id": 2,
         "name": "Josue Pedraza",   
         "title": "Robotics Rockstar",
-        "image": "./assets/josue_pedraza.png"
+        "image": "./assets/images/josue_pedraza.png"
     },
     {
         "id": 3,
         "name": "Miguel Campo",
         "title": "Website Wizzard",
-        "image": "./assets/miguel_campo.png"
+        "image": "./assets/images/miguel_campo.png"
     },
     {
         "id": 4,
         "name": "Tristan Hammond",
         "title": "Cybersecurity Specialist",
-        "image": "./assets/tristan_hammond.gif"
+        "image": "./assets/images/tristan_hammond.gif"
     }
 ]
