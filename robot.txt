@@ -1,0 +1,21 @@
+# robots.txt for STEM Fair 2026 - Commonwealth Academy
+# https://stem.rathhacks.tech/
+
+# Allow all search engines to crawl the entire site
+User-agent: *
+Allow: /
+
+# Allow crawling of important resources
+Allow: /assets/
+Allow: /static/
+
+# Disallow crawling of unnecessary files (if any exist)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Sitemap location (create sitemap.xml for better SEO)
+Sitemap: https://stem.rathhacks.tech/sitemap.xml
+
+# Crawl-delay (optional - helps prevent overloading server)
+# Crawl-delay: 1
+
