@@ -19,7 +19,7 @@
         "id": 3,
         "name": "American Red Cross",
         "tier": "gold",
-        "description": "Helping support families in need. Providing our event with a raffle and donations.",
+        "description": "Helping support families in need.",
         "website": "https://www.redcross.org/",
         "logo": "assets/images/redcross.png"
     },
