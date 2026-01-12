@@ -17,14 +17,22 @@
     },
     {
         "id": 3,
-        "name": "RathHacks",
+        "name": "American Red Cross",
         "tier": "gold",
+        "description": "Helping support families in need. Providing our event with a raffle and donations.",
+        "website": "https://www.redcross.org/",
+        "logo": "assets/images/redcross.png"
+    },
+    {
+        "id": 4,
+        "name": "RathHacks",
+        "tier": "silver",
         "description": "Brining technology optotunties to everyone, while building the next generation of innovators.",
         "website": "https://stem.rathhacks.tech",
         "logo": "assets/images/rathhacks.png"
     },
     {
-        "id": 4,
+        "id": 5,
         "name": "NOSINT",
         "tier": "silver",
         "description": "Helping support online investigation and keeping familes safe.",
