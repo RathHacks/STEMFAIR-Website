@@ -67,6 +67,14 @@
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
+
+    <!-- Prior Events Section -->
+    <url>
+        <loc>https://stem.rathhacks.tech/#prior-events</loc>
+        <lastmod>2025-01-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
     
     <!-- Registration/Signup Section -->
     <url>
