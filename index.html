@@ -44,6 +44,7 @@
     <script src="static/team.js" defer></script>
     <script src="static/thanks.js" defer></script>
     <script src="static/sponsors.js" defer></script>
+    <script src="static/door-prize-modal.js" defer></script>
 
     <script type="application/ld+json">
         {
@@ -253,7 +254,7 @@
             <div class="raffle-header">
                 <div class="raffle-badge">🎟️ Take Home Learning Tools</div>
                 <h2 class="raffle-title">Continue Learning at Home</h2>
-                <p class="raffle-subtitle">Attending the event automatically enters your child into our raffle to win learning tools they can take home! These prizes are designed to help your child continue their STEM journey beyond the event.</p>
+                <p class="raffle-subtitle">Attending the event automatically enters your child into our door prizw to win learning tools they can take home! These prizes are designed to help your child continue their STEM journey beyond the event.</p>
             </div>
             <div class="raffle-prizes-grid">
                 <div class="prize-card prize-featured">
@@ -276,6 +277,52 @@
             </div>
         </div>
     </section>
+
+    <section id="door-prize-details" class="door-prize-details-section">
+        <div class="container">
+            <button id="view-prizes-btn" class="view-prizes-button">View Full Prize List & Terms</button>
+        </div>
+    </section>
+
+    <!-- Door Prize Modal -->
+    <div id="door-prize-modal" class="door-prize-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Door Prize Information</h2>
+                <button class="modal-close" aria-label="Close modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-two-columns">
+                    <div class="prizes-list-column">
+                        <h3>Full Prize List <span class="live-badge">Updated Live</span></h3>
+                        <ul class="prizes-list-simple">
+                            <li>20+ Laptop(MODELS COMING SOON)</li>
+                            <li>2 HP Printers</li>
+                            <li>Beginner's Circuitry Kits</li>
+                            <li>Razer Desk/Gaming Full-Desk Mousepads</li>
+                            <li>Rasbery Pi 4 Model B</li>
+                            <li>3x 10$ Amazon Gift Cards</li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="terms-column">
+                        <h3>Door Prize Terms of Service</h3>
+                        <div class="terms-textbox">
+                            <p>Attending the event automatically enters your child into our door prize to win learning tools they can take home! These prizes are designed to help your child continue their STEM journey beyond the event.</p>
+                            <p>Winners will be selected at random from all registered attendees. Prize distribution will take place at the conclusion of the event or after the event if the winning attendee is not present. All prizes are subject to availability.</p>
+                            <p>By participating, you agree to the terms and conditions of the door prize. Winners must be present at the time of drawing to claim their prize, or have the correct contact information submmited in the registration form. Prizes are non-transferable and cannot be exchanged for cash.</p>
+                            <p>Only one prize per child. If a child wins a prize, they will not be eligible to win another prize.</p>
+                            <p>Prizes are not redeemable for cash. Only the prize itself is redeemable.</p>
+                            <p>Prizes are not transferable. Only the winner is eligible to receive the prize.</p>
+                            <p>Prizes are not replaceable. If a prize is lost or damaged, the winner is not eligible to receive a replacement prize.</p>
+                            <p>Prizes are not refundable. If a prize is not claimed, the winner is not eligible to receive a refund.</p>
+                            <p>This Door Prize is in good faith, Commonwealth Academy, BSA or the orgnizing members are not liable for any damages or injuries that may occur during the event. By participating, you agree to release Commonwealth Academy, BSA or the orgnizing members from any and all liability. As well as full control over the distrbution, as well as changing to these terms at their discretion.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <section id="info" class="info-section">
         <div class="container">
