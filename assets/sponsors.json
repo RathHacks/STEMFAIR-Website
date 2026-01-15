@@ -24,19 +24,27 @@
         "logo": "assets/images/redcross.png"
     },
     {
-        "id": 4,
-        "name": "RathHacks",
-        "tier": "silver",
-        "description": "Brining technology optotunties to everyone, while building the next generation of innovators.",
-        "website": "https://stem.rathhacks.tech",
-        "logo": "assets/images/rathhacks.png"
-    },
-    {
         "id": 5,
         "name": "NOSINT",
         "tier": "silver",
         "description": "Helping support online investigation and keeping familes safe.",
         "website": "https://nosint.org/",
         "logo": "assets/images/nosint.png"
+    },
+    {
+        "id": 6,
+        "name": " YMCA of Metropolitan Washington",
+        "tier": "silver",
+        "description": "Helping support the community and families in need.",
+        "website": "https://www.ymcadc.org/",
+        "logo": "assets/images/ymcadc.png"
+    },
+    {
+        "id": 7,
+        "name": "RathHacks",
+        "tier": "silver",
+        "description": "Brining technology optotunties to everyone, while building the next generation of innovators.",
+        "website": "https://stem.rathhacks.tech",
+        "logo": "assets/images/rathhacks.png"
     }
 ]
