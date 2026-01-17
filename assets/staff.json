@@ -63,13 +63,13 @@
         "id": 10,
         "name": "Richard Rath",
         "title": "Workshop Assistant",
-        "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=RyanThompson"
+        "image": "./assets/images/richard_rath.jpg"
     },
     {
         "id": 11,
-        "name": "Margret Burns Rath",
+        "name": "Margaret Burns Rath",
         "title": "Workshop Assistant",
-        "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=RyanThompson"
+        "image": "./assets/images/margaret_burns_rath.jpg"
     },
     {
         "id": 12,
