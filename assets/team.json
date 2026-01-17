@@ -7,24 +7,18 @@
     },
     {
         "id": 2,
-        "name": "Josue Pedraza",   
-        "title": "Robotics Riveter",
-        "image": "./assets/images/josue_pedraza.png"
-    },
-    {
-        "id": 3,
         "name": "Miguel Campo",
         "title": "Website Weaver",
         "image": "./assets/images/miguel_campo.png"
     },
     {
-        "id": 4,
+        "id": 3,
         "name": "Tristan Hammond",
         "title": "Cybersecurity Specialist",
         "image": "./assets/images/tristan_hammond.gif"
     },
     {
-        "id": 5,
+        "id": 4,
         "name": "John Tani",
         "title": "Recruiting Specialist",
         "image": "./assets/images/john_tani.png"
