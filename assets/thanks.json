@@ -3,12 +3,12 @@
         "id": 1,
         "name": "Anabelle C. Morgan",
         "title": "Commonwealth Academy, Head of School",
-        "image": "/assets/images/anabelle_morgan.png"
+        "image": "/assets/images/anabelle_morgan_formal.png"
     },
     {
         "id": 2,
         "name": "Marcus Moreno",
         "title": "Commonwealth Academy, Head of Technology",
-        "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=MarcusM"
+        "image": "/assets/images/marcus_moreno.png"
     }
 ]

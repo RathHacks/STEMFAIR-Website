@@ -43,7 +43,31 @@
     },
     {
         "id": 7,
-        "name": "Tristan Tomiak",
+        "name": "Tristan McParland",
+        "title": "Workshop Assistant",
+        "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=RyanThompson"
+    },
+    {
+        "id": 8,
+        "name": "Thomas McParland",
+        "title": "Workshop Assistant",
+        "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=RyanThompson"
+    },
+    {
+        "id": 9,
+        "name": "Jennifer McParland",
+        "title": "Workshop Assistant",
+        "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=RyanThompson"
+    },
+    {
+        "id": 10,
+        "name": "Richard Rath",
+        "title": "Workshop Assistant",
+        "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=RyanThompson"
+    },
+    {
+        "id": 11,
+        "name": "Margret Bruns Rath",
         "title": "Workshop Assistant",
         "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=RyanThompson"
     }
